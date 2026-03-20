@@ -21,7 +21,7 @@ public class KundeService {
     }
 
     public Kunde kundeFindenById(long id){
-        return kundeRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("kunde",id));
+        return kundeRepository.findById(id).orElseThrow(()-> new ResourceNotFoundException("Kunde",id));
     }
 
     public List<Kunde> kundeSuchenNachFirmenname(String firmenname){
