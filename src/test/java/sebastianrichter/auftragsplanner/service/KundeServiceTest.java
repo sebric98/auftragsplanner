@@ -29,9 +29,9 @@ class KundeServiceTest {
 
     private static Kunde kunde1;
 
-    private static final long GUELTIGE_ID = 1L;
+    private static final Long GUELTIGE_ID = 1L;
 
-    private static final long UNGUELTIGE_ID = 2L;
+    private static final Long UNGUELTIGE_ID = 2L;
 
 
     @BeforeAll
